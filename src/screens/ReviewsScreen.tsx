@@ -1,7 +1,7 @@
-import React from "react";
+import styles from "./reviewsScreen.module.scss";
 
 const ReviewsScreen = () => {
-    return <div>ReviewsScreen</div>;
+    return <div className={styles.wrapper}>ReviewsScreen</div>;
 };
 
 export default ReviewsScreen;

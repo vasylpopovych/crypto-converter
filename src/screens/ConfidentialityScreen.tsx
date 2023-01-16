@@ -1,7 +1,7 @@
-import React from "react";
+import styles from "./confidentialityScreen.module.scss";
 
 const ConfidentialityScreen = () => {
-    return <div>ConfidentialityScreen</div>;
+    return <div className={styles.wrapper}>ConfidentialityScreen</div>;
 };
 
 export default ConfidentialityScreen;

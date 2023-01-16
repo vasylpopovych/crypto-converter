@@ -1,7 +1,7 @@
-import React from "react";
+import styles from "./advantagesScreen.module.scss";
 
 const AdvantagesScreen = () => {
-    return <div>AdvantagesScreen</div>;
+    return <div className={styles.wrapper}>AdvantagesScreen</div>;
 };
 
 export default AdvantagesScreen;
